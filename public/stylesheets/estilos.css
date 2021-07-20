@@ -1,0 +1,81 @@
+/* font-family: 'Stint Ultra Condensed', cursive; */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+h2{
+text-align: left;    
+}
+
+.hero{
+    background: url(../images/header12.jpg) no-repeat;
+background-size: cover;
+height: 0.4vh;
+min-height: 400px;
+color: white;
+}
+
+.Novedades-lista{
+    padding-left: 1px;
+    list-style: none;
+}
+
+.Novedades-lista li{
+font-family: 'Stint Ultra Condensed', cursive;
+font-size: x-large;
+
+}
+
+#Barra{
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
+    top:0px;
+}
+
+.Novedades-lista li a{
+    background-color: white;
+color: #a0a0a0;
+text-decoration: none;
+transition: all .2s ease-in-out;
+display: block;
+}
+
+.Novedades-lista li a:hover{
+    color: black;
+    background-color: rgb(235, 152, 0);
+
+}
+
+.Novedades-lista li a img{
+    color: black;
+    animation-duration: 1s;
+    /* filter: grayscale(); */
+    transition: all .2s ease-in-out;
+    /* opacity: 0.7; */
+    }
+
+.Testimonios{
+    background-color: gray;
+    padding-bottom: 4rem !important;
+
+}
+
+.Testimonio{
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+
+.carousel-caption{
+    color: black;
+    position:unset;
+}
+

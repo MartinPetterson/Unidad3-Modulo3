@@ -1,0 +1,72 @@
+<div id="Mensaje" class="row" style="padding-top: 95px;">
+        <div class="col-md-2 offset-md-1">
+<form action="/contacto" method="post">
+            <p></p>
+            <input type="text" name="nombre" class="form.control" id="input_name" placeholder="Nombre Completo">
+            <br>
+            <br>
+            <input type="email" name="email" class="form.control" id="input_email" placeholder="Email">
+            <br>
+            <br>
+            <input type="text" name="tema" class="form.control" id="input_tema" placeholder="Tema">
+            <br>
+            <br>
+
+            <textarea name="mensaje" id="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+            <button type="enviar" class="btn btn-primary">Enviar</button>
+            </form>
+            <!-- FIN MENSAJE -->
+            <br>
+        {{message}}
+
+        </div>
+
+        <!-- UBICACION -->
+        <div class=" col-2 md-8 offset-md-1 ">
+            <p>
+                <img src="images/Ubicacion.jpg" alt="ubicacion" id="ubicacion">
+                Ubicación
+            <p style="color: black; background-color: rgb(255, 166, 0);"> Coronel Beltrán 170
+                <br>
+                Remedios De Escalada,Lanus
+            </p>
+
+            </p>
+
+            <!-- MAPA-->
+            <div id="Mapa" class="embebed-responsive-item">
+                <h5>Nuestra Ubicación</h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.7951494090889!2d-58.39772217081088!3d-34.725841896539755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd6a2d822bb3%3A0xb2a419cfa5498da7!2sCnel.%20Beltr%C3%A1n%20170%2C%20B1826BRD%20Gran%20Buenos%20Aires%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1624917572031!5m2!1ses!2sar"
+                    style="border:0;" allowfullscreen=""></iframe>
+
+                <!-- FIN DE MAPA -->
+            </div>
+        </div>
+        <!-- FIN UBICACION -->
+
+        <!-- EMAIL -->
+
+        <div class=" col-3 md-2 offset-md-2">
+            <p>
+                <img src="images/correo.jpg" alt="Correo" id="correo">
+                Email
+            <p style="color: black; background-color: rgb(255, 166, 0);"> compuz@gmail.com</p>
+
+            </p>
+
+            <!-- FIN EMAIL -->
+
+
+            <!-- TELEFONO -->
+
+            <p>
+                <img src="images/Telefono.jpg" alt="Telefono" id="telefono">
+                Telefono
+            </p>
+            <p style="color: black; background-color: rgb(255, 166, 0);"> (011) 4732-8700 </p>
+        </div>
+        <!-- FIN TELEFONO -->
+
+    </div>

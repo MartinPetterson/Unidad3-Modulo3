@@ -1,0 +1,33 @@
+h2{
+    padding-top: 90px;
+    text-align: center;
+    font-family: 'Stint Ultra Condensed', cursive;
+
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+#pc1 , #monitor{
+    color: orange;
+}
+
+
+
+#pc2 , #Rtx{
+    color: red;
+}
+
+#pc3 , #pc4 , #TecladoK{
+    color: rgb(5, 165, 5);
+}
+
+#Joystick{
+    color: blue;
+}
+
+
+

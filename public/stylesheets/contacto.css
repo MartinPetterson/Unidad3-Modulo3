@@ -1,0 +1,17 @@
+input{
+    color: grey;
+}
+
+ #correo , #telefono , #ubicacion {
+    height: 45px;
+    width: 45px;
+ }
+
+p{
+    color: gray;
+}
+
+h5{
+    font-family: 'Jomhuria', cursive;
+    color: rgb(235, 152, 0);
+}
